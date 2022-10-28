@@ -1,1 +1,2 @@
-# form
+# RegistrationForm
+Registration form sample format

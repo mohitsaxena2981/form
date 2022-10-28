@@ -1,0 +1,67 @@
+.main{
+    padding: 4%;
+    padding-bottom: 1%;
+    border: 1px solid black;
+    display: inline-flex;
+    flex-direction: column;
+    line-height: 1.5;
+    background-image: url("../images/registration_background.jpg");
+    background-size: 100%;
+    color: gold;
+    box-shadow: 1px 1px 2px rgb(210, 170, 170);
+    transition-duration: .5s;
+}
+.main:hover{
+    box-shadow: 1px 5px 10px wheat;
+}
+body{margin: 0;
+    padding: 0;
+    text-align: center;
+    padding: 4%;
+    padding-top: 2%;
+    background-image: url("../images/reg_back1.jpg");
+    background-size: 100%;
+}
+button{
+    padding: 2%;
+    margin: 2%;
+    transition-duration: .5s;
+}
+button:hover{
+    background-color: aquamarine;
+    color:rgb(56, 12, 12);
+    padding: 2% 4%;
+    border-radius: 10%;
+    font-size: medium;
+}
+p{
+    font-size: smaller;
+}
+h2{
+    margin-bottom: 3%;
+}
+span{
+    color:aliceblue;
+    background-color: rgb(31, 45, 40);
+    transition-duration: .5s;
+}
+input{
+    transition-duration: .5s;
+}
+input:hover{
+    border: 1px solid greenyellow;
+    background-color:black;
+    color:aliceblue;
+}
+span:hover{
+    background-color: rgb(56, 12, 12);
+    color:rgb(241, 230, 169);
+    transition-delay: 1ms;
+    font-size: xx-large;
+}
+label:hover{
+    color:aquamarine;
+}
+p:hover{
+    color:aquamarine;
+}
